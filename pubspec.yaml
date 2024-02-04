@@ -1,0 +1,49 @@
+name: delivery_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+ sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+ flutter:
+    sdk: flutter
+
+ cupertino_icons: ^1.0.2
+ sizer: ^2.0.15
+ country_picker: ^2.0.24
+ material_design_icons_flutter: ^6.0.0
+ flutter_pin_code_fields: ^2.2.0
+ pin_code_fields: ^8.0.1
+ font_awesome_flutter: ^10.7.0
+ persistent_bottom_nav_bar: ^5.0.2
+ firebase_core: ^2.25.3
+ firebase_auth: ^4.17.3
+ page_transition: ^2.1.0
+ provider: ^6.1.1
+ 
+
+dev_dependencies:
+ flutter_test:
+    sdk: flutter
+
+ flutter_lints: ^2.0.0
+
+flutter:
+ uses-material-design: true
+
+ # To add assets to your application, add an assets section, like this:
+ assets:
+    - assets/images/categories/
+    - assets/images/splashScreenImage/
+
+ fonts:
+    - family: UberMoveMedium
+      fonts:
+       - asset: assets/fonts/UberMoveMedium.otf
+    - family: UberMoveBold
+      fonts:
+        - asset: assets/fonts/UberMoveBold.otf
