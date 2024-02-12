@@ -65,7 +65,7 @@ class _AccountState extends State<AccountScreen> {
                 child: ListView.builder(
                   itemCount: account.length,
                   shrinkWrap: true,
-                  physics: BouncingScrollPhysics(),
+                  physics: const BouncingScrollPhysics(),
                   itemBuilder: (context, index) {
                     return ListTile(
                       leading:

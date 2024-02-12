@@ -66,6 +66,7 @@ class MobileAuthServices {
           verificationId: context.read<MobileAuthProvider>().verificationID!,
           smsCode: otp);
       await auth.signInWithCredential(credential);
+      // ignore: use_build_context_synchronously
       Navigator.push(
         context,
         PageTransition(

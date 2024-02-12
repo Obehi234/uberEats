@@ -1,3 +1,4 @@
+// ignore: file_names
 import 'package:delivery_app/controller/provider/authProvider/mobile_auth_provider.dart';
 import 'package:delivery_app/controller/services/authServices/mobile_auth_services.dart';
 import 'package:delivery_app/utils/colors.dart';
@@ -53,6 +54,7 @@ class _MobileLoginScreenUserState extends State<MobileLoginScreen> {
                           setState(() {
                             selectedCountry = '+${country.phoneCode}';
                           });
+                          // ignore: avoid_print
                           print('Select country: ${country.displayName}');
                         },
                       );
