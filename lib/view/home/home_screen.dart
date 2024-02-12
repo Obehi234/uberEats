@@ -1,5 +1,5 @@
 import 'package:delivery_app/utils/colors.dart';
-import 'package:delivery_app/utils/textStyles.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
@@ -108,7 +108,7 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
             SizedBox(height: 0.8.h),
             ListView.builder(
-                physics: NeverScrollableScrollPhysics(),
+                physics: const NeverScrollableScrollPhysics(),
                 shrinkWrap: true,
                 itemCount: 10,
                 itemBuilder: (context, index) {

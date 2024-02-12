@@ -1,4 +1,4 @@
-import 'package:delivery_app/controller/services/authServices/mobileAuthServices.dart';
+import 'package:delivery_app/controller/services/authServices/mobile_auth_services.dart';
 import 'package:flutter/material.dart';
 
 class SignInLogicScreen extends StatefulWidget {

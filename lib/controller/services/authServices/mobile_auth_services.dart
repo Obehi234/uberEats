@@ -1,11 +1,11 @@
 import 'dart:developer';
 
 import 'package:delivery_app/constant/constant.dart';
-import 'package:delivery_app/controller/provider/authProvider/mobileAuthProvider.dart';
-import 'package:delivery_app/view/authScreens/mobileLogInScreen.dart';
-import 'package:delivery_app/view/authScreens/otpScreen.dart';
-import 'package:delivery_app/view/bottomNavigationBar/bottomNavigationBar.dart';
-import 'package:delivery_app/view/signInLogicScreen/signInLogicScreen.dart';
+import 'package:delivery_app/controller/provider/authProvider/mobile_auth_provider.dart';
+import 'package:delivery_app/view/authScreens/mobile_login_screen.dart';
+import 'package:delivery_app/view/authScreens/otp_screen.dart';
+import 'package:delivery_app/view/bottom_navigation_bar/bottom_navigation_bar.dart';
+import 'package:delivery_app/view/signin_logic_screen/signin_logic_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';

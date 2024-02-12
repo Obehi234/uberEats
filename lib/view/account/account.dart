@@ -1,5 +1,5 @@
 import 'package:delivery_app/utils/colors.dart';
-import 'package:delivery_app/utils/textStyles.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sizer/sizer.dart';
@@ -45,12 +45,12 @@ class _AccountState extends State<AccountScreen> {
                     ),
                     child: CircleAvatar(
                       backgroundColor: white,
+                      radius: 4.h,
                       child: FaIcon(
                         FontAwesomeIcons.user,
                         size: 4.h,
                         color: black,
                       ),
-                      radius: 4.h,
                     ),
                   ),
                   SizedBox(width: 10.w),

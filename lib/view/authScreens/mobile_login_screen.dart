@@ -1,7 +1,7 @@
-import 'package:delivery_app/controller/provider/authProvider/mobileAuthProvider.dart';
-import 'package:delivery_app/controller/services/authServices/mobileAuthServices.dart';
+import 'package:delivery_app/controller/provider/authProvider/mobile_auth_provider.dart';
+import 'package:delivery_app/controller/services/authServices/mobile_auth_services.dart';
 import 'package:delivery_app/utils/colors.dart';
-import 'package:delivery_app/utils/textStyles.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
@@ -108,7 +108,7 @@ class _MobileLoginScreenUserState extends State<MobileLoginScreen> {
                         '$selectedCountry${mobileNumberController.text.trim()}');
                   },
                   style: ElevatedButton.styleFrom(
-                      shape: RoundedRectangleBorder(
+                      shape: const RoundedRectangleBorder(
                           borderRadius: BorderRadius.zero),
                       backgroundColor: black,
                       minimumSize: Size(90.w, 6.h)),
@@ -145,7 +145,7 @@ class _MobileLoginScreenUserState extends State<MobileLoginScreen> {
               SizedBox(height: 2.h),
               ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                      shape: RoundedRectangleBorder(
+                      shape: const RoundedRectangleBorder(
                           borderRadius: BorderRadius.zero),
                       backgroundColor: white,
                       minimumSize: Size(90.w, 6.h)),

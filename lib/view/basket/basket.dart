@@ -1,4 +1,4 @@
-import 'package:delivery_app/utils/textStyles.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 
 class BasketScreen extends StatefulWidget {

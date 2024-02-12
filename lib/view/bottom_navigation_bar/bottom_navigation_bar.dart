@@ -1,7 +1,7 @@
 import 'package:delivery_app/utils/colors.dart';
 import 'package:delivery_app/view/account/account.dart';
 import 'package:delivery_app/view/basket/basket.dart';
-import 'package:delivery_app/view/browse/browseScreen.dart';
+import 'package:delivery_app/view/browse/browse_screen.dart';
 import 'package:delivery_app/view/grocery/grocery_screen.dart';
 import 'package:delivery_app/view/home/home_screen.dart';
 import 'package:flutter/cupertino.dart';

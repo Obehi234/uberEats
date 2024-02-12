@@ -1,5 +1,5 @@
 import 'package:delivery_app/utils/colors.dart';
-import 'package:delivery_app/utils/textStyles.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 

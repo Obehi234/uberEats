@@ -1,9 +1,8 @@
 import 'dart:async';
 
-import 'package:delivery_app/controller/provider/authProvider/mobileAuthProvider.dart';
+import 'package:delivery_app/controller/provider/authProvider/mobile_auth_provider.dart';
 import 'package:delivery_app/utils/colors.dart';
-import 'package:delivery_app/utils/textStyles.dart';
-import 'package:flutter/foundation.dart';
+import 'package:delivery_app/utils/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
@@ -53,7 +52,7 @@ class _OTPScreenState extends State<OTPScreen> {
           child: ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(
-                shape: CircleBorder(),
+                shape: const CircleBorder(),
                 padding: EdgeInsets.all(1.h),
                 backgroundColor: greyShade3,
                 elevation: 2),
@@ -66,7 +65,7 @@ class _OTPScreenState extends State<OTPScreen> {
           child: ElevatedButton(
             onPressed: () {},
             style: ElevatedButton.styleFrom(
-                shape: StadiumBorder(),
+                shape: const StadiumBorder(),
                 padding: EdgeInsets.symmetric(horizontal: 3.w, vertical: 1.h),
                 backgroundColor: greyShade3,
                 elevation: 2),
